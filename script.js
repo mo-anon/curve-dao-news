@@ -28,15 +28,21 @@ function parseFeed(xml) {
 
 function displayArticles(articlesToDisplay) {
     let html = "";
-    for (let article of articlesToDisplay) {
-        html += `
-            <article>
-                <h1>${article.title}</h1>
-                <p>${article.description}</p>
-                <a href="${article.link}">Proposal</a>
-            </article>
-        `;
+
+    if (articlesToDisplay.length === 0) {
+        html = "<p>No entries found for this time period.</p>"; // Message displayed when no articles are found
+    } else {
+        for (let article of articlesToDisplay) {
+            html += `
+                <article>
+                    <h1>${article.title}</h1>
+                    <p>${article.description}</p>
+                    <a href="${article.link}">Proposal</a>
+                </article>
+            `;
+        }
     }
+
     document.getElementById("rss-feed").innerHTML = html;
 }
 
