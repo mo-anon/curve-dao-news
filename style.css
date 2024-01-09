@@ -1,0 +1,400 @@
+html {
+  background: #a5a4ce;
+  font-family: System, monospace;
+  font-size: 10pt;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.window {
+  position: relative;
+  cursor: default;
+  margin: 2em auto;
+  width: 80%;
+  background: #3465a4; 
+  color: white;
+  border: 6px double white;
+  padding: 1em;
+  box-shadow: 0 0 0 3px #3465a4, 1em 1em 3px 0 rgba(0,0,0,.5);
+  max-width: 640px;
+}
+
+.window.error {
+  background: red;
+  box-shadow: 0 0 0 3px red, 1em 1em 3px 0 rgba(0,0,0,.5);
+  display: none;
+}
+
+.window.white {
+  background: silver;
+  color: black;
+  border-color: white;
+  box-shadow: 0 0 0 3px silver, 1em 1em 3px 0 rgba(0,0,0,.5);
+}
+
+.window.half-width {
+  width: 50%;
+}
+
+.window :link {
+  color: inherit;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.window :link:hover {
+  text-decoration: underline;
+}
+
+.window h1 {
+  text-align: center;
+}
+
+/* Table styles */
+fieldset {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.tui-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.tui-table th, .tui-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tui-table th {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+/* Footer styles */
+.footer {
+  background: silver;
+  color: black;
+  text-align: center;
+  padding: 2.5em 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+.footer a:hover {
+  color: #3465a4;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+button,
+.button,
+.button:link {
+  display: inline-block;
+  font-weight: bolder;
+  color: white;
+  font-family: inherit;
+  font-size: inherit;
+  background: green;
+  padding: 0 1em;
+  box-shadow: .5em .5em 3px rgba(0,0,0,.5);
+  position: relative;
+  transition: .2s all ease-in;
+  border: 1px outset green;
+}
+
+button.full-width,
+.button.full-width {
+  display: block;
+  text-align: center;
+}
+
+button:before,
+.button:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+}
+
+button:hover,
+.button:active,
+.button:focus,
+.button:hover {
+  transform: translate3d(.25em,.25em,10em);
+  box-shadow: 0 0 0 rgba(0,0,0,.5);
+  background: limegreen;
+}
+
+button:hover:before,
+.button:hover:before,
+button:focus:before,
+.button:focus:before {
+  top: -1em;
+  left: -1em;
+}
+
+.button.pressed {
+  box-shadow: none;
+  left: 0.25em;
+  top: 0.25em;
+  margin-right: 0.25em;
+  background: gray;
+  border: 1px outset #707070;
+}
+
+button:first-letter,
+.button:first-letter {
+  color: yellow;
+}
+
+input, textarea {
+  background: blue;
+  color: aqua;
+  width: 100%;
+  max-width: 100%;
+  font-size: 12pt;
+}
+
+input:disabled {
+  background: #505070;
+  color: #d0d0d0;
+  border: 2px solid #505070;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=radio] + label[for]:before,
+input[type=checkbox] + label[for]:before {
+  text-align: center;
+  display: inline-block;
+  height: 1em; 
+  width: 2em;
+}
+
+input[type=radio] + label[for]:before {
+  content: "( ) ";
+  cursor: pointer;
+}
+
+input[type=checkbox] + label[for]:before {
+  content: "[ ] ";
+  cursor: pointer;
+}
+
+input[type=radio]:checked + label[for]:before {
+  content: "(•) ";
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + label[for]:before {
+  content: "[X] ";
+  cursor: pointer;
+}
+
+.window > textarea {
+  width: 100%;
+  border: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-menu-bar {
+  top: 0; 
+  left: 0; 
+  right: 0;
+  background: silver;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.top-menu-bar a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: black;
+  padding: 0 1em;
+}
+
+.top-menu-bar a:visited {
+  color: black;
+}
+
+.top-menu-bar a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.top-menu-bar a.selected {
+  background-color: #505050;
+  color: #c0c0c0;
+}
+
+strong:before, strong:after { 
+  content: "*"; 
+}
+
+i:before, i:after { 
+  content: "/"; 
+}
+
+.trade-buttons {
+  text-align: center;
+}
+
+#chart {
+  background-color: white;
+  border: 1px solid gray;
+}
+
+p.exchange-rate {
+  text-align: right;
+  padding-right: 0.5em;
+}
+
+#exchange-rate {
+  color: #006000;
+  font-weight: bold;
+}
+
+div.info table {
+  width: 100%;
+}
+
+div.info table td {
+  vertical-align: top;
+}
+
+#lp-info-container {
+  display: none;
+}
+
+
+
+.dropdown-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#article-selector {
+  width: 300px;
+  padding: 0px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.back-arrow {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.back-arrow a {
+  text-decoration: none;
+  color: #3465a4; /* Adjust the color as needed */
+}
+
+/* RSS FEED STYLE */
+
+.filter-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+#search-field {
+  width: 200px; /* Adjust the width as needed */
+  margin-right: 10px;
+  padding: 2px;
+  border: 1px solid #ccc; /* Adds a border to the search field */
+  border-radius: 5px; /* Rounds off the edges of the search bar */
+  /* Add more styles as needed (e.g., font size, color) */
+}
+
+
+
+#rss-feed {
+  height: 400px; /* Adjust as needed */
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+
+#rss-feed article {
+  font-family: System, monospace; 
+  font-size: 16px;
+  border-bottom: 1px solid #ccc; /* Thin line at the bottom of each article */
+  padding-bottom: 10px; /* Space at the bottom of each article */
+  margin-bottom: 10px; /* Space between articles */
+}
+
+#rss-feed article h1 {
+  text-align: left;
+  font-size: 15px; /* Larger font size for article titles */
+}
+
+#rss-feed article p {
+  font-size: 13px; /* Smaller font size for article descriptions */
+  margin-left: 10px;
+}
+
+#rss-feed article a:hover {
+  color: #0056b3; /* Color of the link when hovered */
+}
+
+
+#rss-feed article a {
+  font-size: 12px; /* Font size for links */
+  margin-left: 10px;
+  color: #007bff;
+}
+
+
