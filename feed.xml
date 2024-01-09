@@ -6,46 +6,25 @@
     <description>A Curve DAO Newsletter aiming to bring more transparity and clarity to the Community.</description>
     <language>en-us</language>
 
-    <!-- First Article -->
     <item>
-        <title>DAO Vote 562: Gauge Vote crvUSD/MIM (Arbitrum)</title>
+        <title>[563]: Distributing $ARB to LP's</title>
+        <link>https://dao.curve.fi/vote/ownership/563</link>
+        <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
+        <pubDate>Sun, 07 Jan 2024 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+        <title>[562]: Gauge Vote crvUSD/MIM (Arbitrum)</title>
         <link>https://dao.curve.fi/vote/ownership/562</link>
-        <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
-        <pubDate>Date of publication, e.g., Wed, 04 Apr 2022 11:00:00 GMT</pubDate>
+        <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
+        <pubDate>Sun, 07 Jan 2024 12:00:00 GMT</pubDate>
     </item>
 
     <item>
-        <title>DAO Vote 131: Claiming OP grant</title>
-        <link>http://www.yourwebsite.com/first-article</link>
-        <description>Claiming OP grant from OP.</description>
-        <pubDate>Fri, 05 Jan 2024 12:00:00 GMT</pubDate>
-        <guid>http://www.yourwebsite.com/first-article</guid>
-    </item>
-
-    <item>
-        <title>DAO Vote 131: Claiming ARB grant</title>
-        <link>http://www.yourwebsite.com/first-article</link>
-        <description>Claiming OP grant from OP.</description>
-        <pubDate>Fri, 04 Jan 2024 12:00:00 GMT</pubDate>
-        <guid>http://www.yourwebsite.com/first-article</guid>
-    </item>
-
-    <!-- Second Article -->
-    <item>
-        <title>DAO Vote 563: ARB Distribution</title>
-        <link>curve.fi</link>
-        <description>Vote on how to use Curve's airdropped ARB tokens.</description>
-        <pubDate>Date of publication, e.g., Wed, 06 Apr 2022 12:00:00 GMT</pubDate>
-        <guid>http://www.yourwebsite.com/second-article</guid>
-    </item>
-
-    <!-- Second Article -->
-    <item>
-        <title>DAO Vote 562: Gauge Vote crvUSD/MIM (Arbitrum)</title>
-        <link>http://www.yourwebsite.com/second-article</link>
-        <description>Vote to add a gauge for the crvUSD/MIM pool on Arbitrum.</description>
-        <pubDate>Date of publication, e.g., Wed, 04 Apr 2022 11:00:00 GMT</pubDate>
-        <guid>http://www.yourwebsite.com/second-article</guid>
+        <title>[522]: Claiming OP Grant</title>
+        <link>https://dao.curve.fi/vote/ownership/522</link>
+        <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
+        <pubDate>Sun, 24 Dec 2023 12:00:00 GMT</pubDate>
     </item>
 
 </channel>

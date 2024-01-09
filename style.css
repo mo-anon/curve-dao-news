@@ -330,10 +330,13 @@ div.info table td {
 
 .back-arrow a {
   text-decoration: none;
-  color: #3465a4; /* Adjust the color as needed */
+  color: #3465a4;
 }
 
-/* RSS FEED STYLE */
+
+
+
+/* RSS FEED / FILTER STYLE */
 
 .filter-search {
   display: flex;
@@ -371,28 +374,28 @@ div.info table td {
 #rss-feed article {
   font-family: System, monospace; 
   font-size: 16px;
-  border-bottom: 1px solid #ccc; /* Thin line at the bottom of each article */
-  padding-bottom: 10px; /* Space at the bottom of each article */
-  margin-bottom: 10px; /* Space between articles */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #rss-feed article h1 {
   text-align: left;
-  font-size: 15px; /* Larger font size for article titles */
+  font-size: 15px;
 }
 
 #rss-feed article p {
-  font-size: 13px; /* Smaller font size for article descriptions */
+  font-size: 13px;
   margin-left: 10px;
 }
 
 #rss-feed article a:hover {
-  color: #0056b3; /* Color of the link when hovered */
+  color: #0056b3;
 }
 
 
 #rss-feed article a {
-  font-size: 12px; /* Font size for links */
+  font-size: 12px;
   margin-left: 10px;
   color: #007bff;
 }
