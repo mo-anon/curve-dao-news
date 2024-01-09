@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html>
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Curve DAO News</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+  <body>
+    <div class="top-menu-bar">
+      <a href="https://gov.curve.fi/">Curve Forum</a>
+      <a href="./dao-votes.html">DAO Votes</a>
+    </div>
+
+    <div id="screen">
+        <div class="blue window">
+            <h1><img src="images/lama.png" alt="Logo" style="height: 1.5em; vertical-align: middle;"> Curve DAO News</h1>
+        </div>
+        <div class="error window half-width info" id="error-window"></div>
+    </div>
+    
+        <div class="window white">
+            <fieldset>
+
+                <legend> Welcome to the Curve DAO News!</legend>
+                    <p>
+                        Explore the intricacies of Curve DAO proposals through meticulously crafted summaries. This platform provides a professional, detailed perspective on each proposal, fostering informed decision-making with clear, concise information. Emphasizing transparency and comprehension in the ever-evolving Curve DAO environment, these dependable insights keep you informed and at the forefront of decentralized governance.
+                    </p>
+            </fieldset>
+
+            <fieldset>
+                
+                <div class="filter-search">
+                    <div>
+                        <button onclick="filterArticles('1d')">1d</button>
+                        <button onclick="filterArticles('7d')">7d</button>
+                        <button onclick="filterArticles('30d')">30d</button>
+                        <button onclick="filterArticles('all')">All</button>
+                    </div>
+                    <div class="search-container">
+                    <input type="text" id="search-field" placeholder="Search articles...">
+                    <button>Search</button>
+                    </div>
+                </div>
+
+                <div id="rss-feed">Loading feed...</div>
+
+            </fieldset>            
+        </div>
+
+        <script src="script.js"></script>
+
+  </body>
+</html>
